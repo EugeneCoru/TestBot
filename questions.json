@@ -1,0 +1,91 @@
+{
+    "html" : [
+    {
+        "id": 1,
+        "text": "Какой тег используется для создания ссылки?",
+        "hasOptions": true,
+        "options": [
+            {"id": 1, "txt": "<link>", "isCorrect": false},
+            {"id": 2, "txt": "<ancor>", "isCorrect": false},
+            {"id": 3, "txt": "<href>", "isCorrect": false},
+            {"id": 4, "txt": "<a>", "isCorrect": false}
+        ]
+    },
+    {
+        "id": 2,
+        "text": "Какой тег используется для вставки изображения?",
+        "hasOptions": true,
+        "options": [
+            {"id": 1, "txt": "<link>", "isCorrect": false},
+            {"id": 2, "txt": "<ancor>", "isCorrect": true},
+            {"id": 3, "txt": "<img>", "isCorrect": false},
+            {"id": 4, "txt": "<a>", "isCorrect": false}
+        ]
+    },
+    {
+        "id": 3,
+        "text": "Какой ?",
+        "hasOptions": false,
+        "answer": "Здесь будет ответ на вопрос"
+    },
+    {
+        "id": 4,
+        "text": "Что?",
+        "hasOptions": true,
+        "options": [
+            {"id": 1, "txt": "<link>", "isCorrect": false},
+            {"id": 2, "txt": "<ancor>", "isCorrect": true},
+            {"id": 3, "txt": "<href>", "isCorrect": false},
+            {"id": 4, "txt": "<a>", "isCorrect": false}
+        ]
+    }
+
+],
+    "scss": [
+        {
+            "id": 5,
+            "text": "Нет?",
+            "hasOptions": false,
+            "options": [
+                {"id": 1, "txt": "<link>", "isCorrect": false},
+                {"id": 2, "txt": "<ancor>", "isCorrect": false},
+                {"id": 3, "txt": "<href>", "isCorrect": false},
+                {"id": 4, "txt": "<a>", "isCorrect": false}
+            ]
+        },
+        {
+            "id": 6,
+            "text": "Да?",
+            "hasOptions": false,
+            "options": [
+                {"id": 1, "txt": "<link>", "isCorrect": false},
+                {"id": 2, "txt": "<ancor>", "isCorrect": false},
+                {"id": 3, "txt": "<img>", "isCorrect": false},
+                {"id": 4, "txt": "<a>", "isCorrect": false}
+            ]
+        },
+        {
+            "id": 7,
+            "text": "Почему ?",
+            "hasOptions": false,
+            "options": [
+                {"id": 1, "txt": "<link>", "isCorrect": false},
+                {"id": 2, "txt": "<ancor>", "isCorrect": false},
+                {"id": 3, "txt": "<href>", "isCorrect": false},
+                {"id": 4, "txt": "<a>", "isCorrect": false}
+            ]
+        },
+        {
+            "id": 8,
+            "text": "Кого?",
+            "hasOptions": false,
+            "options": [
+                {"id": 1, "txt": "<link>", "isCorrect": false},
+                {"id": 2, "txt": "<ancor>", "isCorrect": false},
+                {"id": 3, "txt": "<href>", "isCorrect": false},
+                {"id": 4, "txt": "<a>", "isCorrect": false}
+            ]
+        }        
+
+    ]
+}
