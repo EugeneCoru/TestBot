@@ -1,14 +1,16 @@
+//const { Random } = require('random');
 const questionss = require('./questions');
 
 const GetRandomQuestion = (topic) => {
-    // console.log(1);
-    console.log(questionss);
-    // console.log(2);
-    const questionTopic = topic.toLowerCase();
-    //console.log(questionss[questionTopic]);
+    
+    let questionTopic = topic.toLowerCase();// перевод слова в нижний регистр
+    if (questionTopic == 'random') {
+        questionTopic = Object.keys(questionss)[Math.floor(Math.random() * Object.keys(questionss).length)];// берем количество названий объектов и запускаем для поика рандомного значения
+
+    }
+    
     const randomQuetionIndex = Math.floor(Math.random() * questionss[questionTopic].length);
-    // console.log(3);
-    // console.log(randomQuetionIndex);
+
     return questionss[questionTopic][randomQuetionIndex];
 }
 
@@ -23,5 +25,8 @@ const GetCorrectAnswer = (topic, id) => {
 
     return question.options.find((option) => option.isCorrect).txt;
 };
+
+
+
 
 module.exports = { GetRandomQuestion, GetCorrectAnswer };
